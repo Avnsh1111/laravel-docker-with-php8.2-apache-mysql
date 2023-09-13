@@ -27,7 +27,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: your_mysql_root_password
       MYSQL_DATABASE: your_database_name
-      MYSQL_USER: yourt_database_user_name
+      MYSQL_USER: your_database_user_name
       MYSQL_PASSWORD: your_database_user_password
     volumes:
       - ./mysql_data:/var/lib/mysql
